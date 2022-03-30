@@ -1,0 +1,6 @@
+.menu-cont{
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

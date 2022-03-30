@@ -3,7 +3,7 @@ import './App.css';
 
 
 
-import HomePage from './components/homePage/homePage.component'
+import HomePage from './pages/homePage/homePage.component'
 
 function App() {
   return (
