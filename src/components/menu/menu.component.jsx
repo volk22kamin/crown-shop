@@ -46,11 +46,12 @@ class Menu extends React.Component{
     }
 
     render(){
+      console.log('menu renderd')
         return(
             <div className="menu-cont">
                 {
-                    this.state.sections.map(({title, id, imageUrl, size}) => (
-                        <MenuItem key={id} title={title} image={imageUrl} size={size} />
+                    this.state.sections.map(({ id, ...otherProps}) => (
+                        <MenuItem key={id} {...otherProps} />
                     ))
                 }
             </div>
