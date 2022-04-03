@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.logo-container {
+  height: 100%;
+  width: 70px;
+  padding: 25px;
+  background-color: aqua;
+}
+.options {
+  background-color: aqua;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.option {
+  padding: 10px 15px;
+}
